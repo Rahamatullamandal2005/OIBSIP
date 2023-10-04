@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(58.2deg, rgba(40, 91, 212, 0.73) -3%, rgba(171, 53, 163, 0.45) 49.3%, rgba(255, 204, 112, 0.37) 97.7%);
+    text-align: center;
+    width: 100%;
+    height: 82vh;
+}
+
+.container {
+    background-color: #4b0a3e;
+    color: white;
+    font-size: large;
+    width: 355px;
+    height: 38vh;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 27px;
+}
+
+#unit {
+    width: 55%;
+    font-size: 100%;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+#temperature {
+    font-size: 100%;
+    margin-right: 5px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #fdfdfd;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.time {
+    padding: 5px;
+    position: relative;
+    right: 27%;
+}
+
+#ct {
+    color: #fff;
+    padding: 8px;
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        max-width: 100%;
+        margin: 20px;
+    }
+
+    #temperature {
+        margin-right: 0;
+    }
+
+    select {
+        margin-top: 0;
+    }
+}
